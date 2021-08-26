@@ -9,9 +9,7 @@ jobs:
     - id: Build-Vue
       run: |
             yarn install
-            cd vuelearnone/vuelearnone
             yarn build
-            ls
             cd dist
             git init
             git add -A
